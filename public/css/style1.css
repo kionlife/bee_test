@@ -1,0 +1,46 @@
+body {
+	background: linear-gradient(90deg, #1b335f, #3768c5);
+}
+
+.todoBackground {
+    max-width: 750px;
+}
+
+.todoInput, .todoInput:focus {
+    color: #fff;
+    border: none;
+    background: rgba(0,0,0,0.2);
+    max-width: 500px;
+	margin-bottom: 15px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.todos li {
+    background: #ffffff;
+    color: red;
+}
+
+.delete {
+    cursor: pointer;
+}
+
+.btn {
+	width: 300px;
+	display: block;
+	margin: auto;
+}
+
+.pagination {
+    justify-content: center;
+}
+
+.pagination li {
+    margin-right: 5px;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.pagination li a {
+    color: #fff;
+}
